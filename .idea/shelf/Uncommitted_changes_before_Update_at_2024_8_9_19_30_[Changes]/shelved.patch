@@ -1,0 +1,220 @@
+Index: .idea/DemoApp_learn.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/DemoApp_learn.iml b/.idea/DemoApp_learn.iml
+new file mode 100644
+--- /dev/null	(date 1723202802543)
++++ b/.idea/DemoApp_learn.iml	(date 1723202802543)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1723202802592)
++++ b/.idea/vcs.xml	(date 1723202802592)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1723202802567)
++++ b/.idea/modules.xml	(date 1723202802567)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/DemoApp_learn.iml" filepath="$PROJECT_DIR$/.idea/DemoApp_learn.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	(date 1723202802619)
++++ b/.idea/compiler.xml	(date 1723202802619)
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <annotationProcessing>
++      <profile name="Maven default annotation processors profile" enabled="true">
++        <sourceOutputDir name="target/generated-sources/annotations" />
++        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
++        <outputRelativeToContentRoot value="true" />
++        <module name="DemoApp" />
++        <module name="DemoSpring" />
++      </profile>
++    </annotationProcessing>
++  </component>
++  <component name="JavacSettings">
++    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
++      <module name="DemoApp" options="-parameters" />
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1723202802618)
++++ b/.idea/misc.xml	(date 1723202802618)
+@@ -0,0 +1,15 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/DemoApp/pom.xml" />
++        <option value="$PROJECT_DIR$/DemoSpring/pom.xml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+new file mode 100644
+--- /dev/null	(date 1723202802660)
++++ b/.idea/jarRepositories.xml	(date 1723202802660)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RemoteRepositoriesConfiguration">
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Central Repository" />
++      <option name="url" value="https://repo.maven.apache.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Maven Central repository" />
++      <option name="url" value="https://repo1.maven.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="jboss.community" />
++      <option name="name" value="JBoss Community repository" />
++      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
++    </remote-repository>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	(date 1723202802657)
++++ b/.idea/encodings.xml	(date 1723202802657)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding">
++    <file url="file://$PROJECT_DIR$/DemoApp/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/DemoSpring/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/DemoSpring/src/main/resources" charset="UTF-8" />
++  </component>
++</project>
+\ No newline at end of file
+Index: DemoApp/README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>For Spring6 and Spring boot self learning.\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/DemoApp/README.md b/DemoApp/README.md
+--- a/DemoApp/README.md	(revision ba1be56a0f17c489e4ff792099a2047d06193745)
++++ b/DemoApp/README.md	(date 1723202986845)
+@@ -1,1 +1,33 @@
+-For Spring6 and Spring boot self learning.
++# For Spring6 and Spring boot self-learning.
++
++## System life cycle diagram
++
++## Construction
++- ioC ( Inversion of Control )
++  - 
++- AOP ( Aspect Oriented Programming )
++  - 
++- **Maven Repository**
++
++  What is Maven repository used for?  
++  <br>
++A repository in Maven holds build artifacts and dependencies of varying types.  
++There are exactly two types of repositories: local and remote: the local repository is a directory on the computer where Maven runs.  
++It caches remote downloads and contains temporary build artifacts that you have not yet released.  
++
++- **Spring.xml**
++
++  The **resources** folder needs to be created under the main folder.  
++  Using the HTML format to manage the spring project.
++  <br>
++
++- **Getter and Setter**  
++
++  
++
++
++Reference:
++- [1] [What is ioc and AOP?](https://javaguide.cn/system-design/framework/spring/ioc-and-aop.html#%E4%BB%80%E4%B9%88%E6%98%AF-ioc)
++- [2] [For XML Schema-based configuration](https://docs.spring.io/spring-framework/docs/4.2.x/spring-framework-reference/html/xsd-configuration.html)
++---
++
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1723202802751)
++++ b/.idea/.gitignore	(date 1723202802751)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml

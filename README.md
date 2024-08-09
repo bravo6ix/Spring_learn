@@ -9,6 +9,6 @@
   - 
 
 Reference:
-- [1] https://javaguide.cn/system-design/framework/spring/ioc-and-aop.html#%E4%BB%80%E4%B9%88%E6%98%AF-ioc
+- [1] [What is ioc and AOP?](https://javaguide.cn/system-design/framework/spring/ioc-and-aop.html#%E4%BB%80%E4%B9%88%E6%98%AF-ioc)
 ---
 

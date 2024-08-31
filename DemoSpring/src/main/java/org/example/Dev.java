@@ -7,6 +7,7 @@ package org.example;
 public class Dev {
 
     private Laptop laptop;
+    private Computer com;
     private int age;
 
     public Dev() {
@@ -17,6 +18,14 @@ public class Dev {
 //        this.age = age;
 //        System.out.println("Dev 1 constructor");
 //    }
+
+    public Computer getCom() {
+        return com;
+    }
+
+    public void setCom(Computer com) {
+        this.com = com;
+    }
 
     public Dev(Laptop laptop) {
         this.laptop = laptop;
